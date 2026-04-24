@@ -1,8 +1,3 @@
-import os
-
-# Define the content for README.md
-readme_content = """# Gesture-Controlled AIoT Smart Lock System
-
 ## Project Overview
 This project, developed for the UCL CASA0018 module, demonstrates a decentralized authentication system using Edge AI and Bluetooth Low Energy (BLE). It features a "Magic Wand" (Arduino Nano 33 BLE) that recognizes spatial gestures (digits '1' and '0') using an onboard IMU and a neural network model. Upon successful authentication of a 4-digit sequence, the wand triggers a "Smart Locker" (ESP32-S3) to actuate a physical lock via an SG90 servo.
 
