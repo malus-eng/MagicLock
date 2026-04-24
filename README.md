@@ -68,16 +68,4 @@ Functional testing confirmed a seamless "Sleep-Wake-Identify-Transmit" loop. The
 ### 5.2 Future Improvements
 Transitioning from a basic CNN to a Gated Recurrent Unit (GRU) might better handle the variable-length nature of human gestures. Additionally, utilizing the ESP32-S3's hardware acceleration for BLE encryption would significantly enhance the system's security posture.
 
-## References
-[1] Edge Impulse Documentation.
-[2] Warden, P. and Situnayake, D., 2019. TinyML. O'Reilly Media.
-"""
-
-# Write files to the environment
-with open("README.md", "w", encoding="utf-8") as f:
-    f.write(readme_content)
-
-with open("CASA0018_Project_Report.md", "w", encoding="utf-8") as f:
-    f.write(report_content)
-
 print("Files generated successfully.")
