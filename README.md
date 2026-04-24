@@ -1,5 +1,5 @@
 ## Project Overview
-This project, developed for the UCL CASA0018 module, demonstrates a decentralized authentication system using Edge AI and Bluetooth Low Energy (BLE). It features a "Magic Wand" (Arduino Nano 33 BLE) that recognizes spatial gestures (digits '1' and '0') using an onboard IMU and a neural network model. Upon successful authentication of a 4-digit sequence, the wand triggers a "Smart Locker" (ESP32-S3) to actuate a physical lock via an SG90 servo.
+This project, developed a decentralized authentication system using Edge AI and Bluetooth Low Energy (BLE). It features a "Magic Wand" (Arduino Nano 33 BLE) that recognizes spatial gestures (digits '1' and '0') using an onboard IMU and a neural network model. Upon successful authentication of a 4-digit sequence, the wand triggers a "Smart Locker" (ESP32-S3) to actuate a physical lock via an SG90 servo.
 
 ## System Architecture
 The system follows a local Machine-to-Machine (M2M) communication pattern:
