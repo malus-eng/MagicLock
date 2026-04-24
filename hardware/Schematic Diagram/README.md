@@ -1,4 +1,4 @@
-### 🔌 2. Hardware List & Wiring Summary
+### 2. Hardware List & Wiring Summary
 
 
 #### Device 1: Magic Wand (Client / Transmitter)
