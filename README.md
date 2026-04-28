@@ -27,9 +27,6 @@ The system follows a local Machine-to-Machine (M2M) communication pattern:
 2. **Locker**: Deploy the PlatformIO project in `/src/locker_esp32s3` to the ESP32-S3.
 3. **Wand**: Upload the `.ino` sketch to the Nano 33 BLE, ensuring the Edge Impulse header name matches your build.
 
-## License
-MIT License
-"""
 
 # Define the content for the Project Report
 report_content = """# CASA0018 Project Report: Edge AI Gesture-Controlled Authentication
@@ -63,4 +60,3 @@ Functional testing confirmed a seamless "Sleep-Wake-Identify-Transmit" loop. The
 ### 5.2 Future Improvements
 Transitioning from a basic CNN to a Gated Recurrent Unit (GRU) might better handle the variable-length nature of human gestures. Additionally, utilizing the ESP32-S3's hardware acceleration for BLE encryption would significantly enhance the system's security posture.
 
-print("Files generated successfully.")
