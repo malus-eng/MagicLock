@@ -29,7 +29,6 @@ The system follows a local Machine-to-Machine (M2M) communication pattern:
 
 
 # Define the content for the Project Report
-report_content = """# CASA0018 Project Report: Edge AI Gesture-Controlled Authentication
 
 ## 1. Problem Context and Research Question
 In the context of touchless interaction and physical security, traditional biometric or mechanical locks often lack flexibility or require centralized network infrastructure. This project investigates the feasibility of deploying a localized, low-latency gesture recognition system using TinyML. The primary research question is: *How can high-frequency spatial temporal data be classified on ultra-low-power microcontrollers to provide robust, decentralized access control?*
